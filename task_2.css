@@ -1,0 +1,70 @@
+.button {
+    background-color:none;
+    border: white;
+    color: black;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;    
+    border-radius: 50px;
+}
+.button:hover {background:#c19a6b;}
+.button2 {
+    background-color: none;
+    color: black;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    border-radius: 50px;
+	border: 2px solid #c19a6b;
+}
+.button2:hover {background:#c19a6b;}
+.hero-image {
+  background-image: url("3.jpg");
+  height: 360px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: static;
+  
+}
+body {
+  margin: 0;
+}
+.hero-text {
+  text-align: center-left;
+  text-shadow: #FC0 1px 0 10px;
+  position: absolute;
+  top: 36%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.button1 {
+    background-color: #D3D3D3;
+    border: none;
+    text-align: center-left;
+    color: black;
+    font-size: 16px;
+}
+.button1:hover {background:#c19a6b;}
+#hun {
+    float: left;
+    width: 27%;
+    height: 225px;
+    padding: 20px;
+}
+#fun {
+    float: left;
+    padding: 20px;
+    width: 31%;
+    height: 225px;
+}
+
